@@ -1,0 +1,116 @@
+/* THE MAIN PAGE */
+
+body {
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+}
+
+.screenUI {
+    width: 100vw;
+    height: 100vh;
+}
+
+.earthquake1 {
+    position: absolute;
+    top: 65%;
+    left: 14.5%;
+    transform: translate(-50%, -50%);
+
+    /* width: 10%;
+    height: auto; */
+
+    height: 35vh;
+    width: 19vw;
+}
+
+.earthquake2 {
+    position: absolute;
+    top: 27%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+
+    height: 35vh;
+    width: 14vw;
+}
+
+.earthquake3 {
+    position: absolute;
+    top: 27%;
+    left: 57.5%;
+    transform: translate(-50%, -50%);
+
+    height: 35vh;
+    width: 14vw;
+}
+
+.earthquake4 {
+    position: absolute;
+    top: 65%;
+    left: 85.2%;
+    transform: translate(-50%, -50%);
+
+    height: 35vh;
+    width: 20vw;
+}
+
+.earthquake5 {
+    position: absolute;
+    top: 56.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 15vh;
+    width: 32vw;
+}
+
+/* ALL THE SINGULAR PAGES */
+
+.phillippines {
+    position: absolute;
+    top: 1%;
+    left: 10.2%;
+    /* to have it be centered */
+    /* transform: translate(-50%, -50%); */
+
+    height: 89vh;
+    width: 43vw;
+
+    /* cursor:url('imagery/nervID.png'), auto; */
+}
+
+.magnitude {
+    position: absolute;
+    top: 1%;
+    left: 56%;
+    /* transform: translate(-50%, -50%); */
+
+    height: 85vh;
+    width: 20vw;
+}
+
+.depth {
+    position: absolute;
+    top: 1%;
+    left: 78.2%;
+    /* transform: translate(-50%, -50%); */
+
+    height: 85vh;
+    width: 20vw;
+}
+
+.waves {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+
+    height: 40vh;
+    width: 20vw;
+}
